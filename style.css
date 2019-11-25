@@ -1,0 +1,49 @@
+.container-fluid
+{
+    text-align: center;
+    background-color:#3D9970;
+    color: white;
+}
+
+.container
+{
+    text-align: center;
+    color: white;
+}
+#finnishtext
+{
+    color: #e9e6e3;
+}
+#finnishimg
+{
+    width: 200px;
+    height: 150px;
+
+}
+button
+{
+    padding: 5px;
+}
+
+.col
+{
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+.gifuser
+{
+    width: 10px;
+    height: 1000000px;
+}
+
+.imgbox1, .imgbox2
+{
+    height: 200px;
+    width: 200px;
+}
+
+body
+{
+    background-color:#3D9970;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">  
+    <div class="container">
+            <div class="row">
+                    <div class="col">
+                    <h4>Welcome to Shotgun</h4> 
+                    </div>    
+            </div>
+            <div class="row">
+                    <div class="col">
+                      <button id="start" type="button" class="btn btn-dark">Start</button>    
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                     <img src="MainGif.gif" alt="">       
+                    </div>
+                    
+            </div>
+        </div>      
+    </div>
+    <div class="container-fluid" id="main">
+    <div id="main">       
+        <div class="row">
+            <div class="col">
+                    <h4>You</h4> 
+            </div>
+            <div class="col">
+                    <h4>Enemy</h4> 
+                
+            </div>
+        </div>
+        <div class="row">
+                <div class="col">
+                <h5 id="UserBullets">Bullets: 1 </h5>
+                </div>
+                 <div class="col">
+                 <h5 id="Rounds">Round: 1</h5>        
+                 </div>
+                <div class="col">
+                <h5 id="CompBullets">Bullets: 1 </h5>                   
+                </div>
+        </div>
+        <div class="row">
+                <div class="col" id="imgbox1">
+                <img src="hand.png" alt="" id="gifuser">   
+                </div>
+                <div class="col" id="imgbox1">
+                <img src="hand.png" alt="" id="gifcomp">                  
+                </div>
+        </div>
+        <div class="row">
+                <div class="col">
+                <button id="shot"type="button" class="btn btn-dark" onclick="Game(this.id);">Shot</button> 
+                </div>
+                <div class="col">
+                <button id="shield"type="button" class="btn btn-dark"
+                onclick="Game(this.id);">Shield</button> 
+                </div>
+                <div class="col">
+                <button id="reload"type="button" class="btn btn-dark" onclick="Game(this.id);">Reload</button> 
+                </div>
+                <div class="col">
+                <button id="shotgun"type="button" class="btn btn-dark" onclick="Game(this.id);">SHOTGUN</button> 
+                </div>
+        </div>
+     </div> 
+
+    </div>
+    <div class="container-fluid bg-grey" id="finnish">
+            <div class="row">
+                  <div class="col">
+                          <h4>Finnish!</h4>
+                  </div>  
+            </div>
+            <div class="row">
+                    <div class="col">
+                        <h5 id="finnishtext">
+                        </h5>  
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                            <img id="finnishimg" src="" alt="">
+                            
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                     <button id="restart"type="button" class="btn btn-dark">Play Again</button>      
+                    </div>
+                    <div class="col">
+                     <button id="menubtn"type="button" class="btn btn-dark">Menu</button>         
+                    </div>
+            </div>
+            
+    </div>
+
+
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+    <script src="script2.js"></script>
+    
+</body>
+</html>
